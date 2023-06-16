@@ -4,8 +4,8 @@ using Zenject;
 
 namespace ZXRCore.Interactable
 {
-    public class ZXRGrabInteractable : XRGrabInteractable
-    { 
+    public class ZXRDirectInteractor : XRDirectInteractor
+    {
         [Inject]
         private void InitializeInteractionManager(XRInteractionManager xrInteractionManager)
         {
