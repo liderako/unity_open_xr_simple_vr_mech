@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+﻿using UnityEngine.XR.Interaction.Toolkit;
 using Zenject;
 
 namespace ZXRCore.Interactable
@@ -9,7 +8,7 @@ namespace ZXRCore.Interactable
         [Inject]
         private void InitializeInteractionManager(XRInteractionManager xrInteractionManager)
         {
-            this.interactionManager = xrInteractionManager;
+            interactionManager = xrInteractionManager;
         }
     }
 }
