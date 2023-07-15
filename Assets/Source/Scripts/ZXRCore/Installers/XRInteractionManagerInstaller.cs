@@ -4,7 +4,7 @@ using Zenject;
 
 namespace Source.Scripts.Core.Installers
 {
-    public class XRInteractionManagerInstallers : MonoInstaller
+    public class XRInteractionManagerInstaller : MonoInstaller
     {
         [SerializeField] private XRInteractionManager xrInteractionManager;
         
