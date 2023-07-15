@@ -13,7 +13,7 @@ GameObject:
   m_Layer: 9
   m_Name: L-Attach point
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 6277704079683154993}
   - component: {fileID: 3772333381274647401}
   - component: {fileID: 4738593325507613573}
+  - component: {fileID: 6038664625381968843}
   m_Layer: 9
   m_Name: PistolObject
   m_TagString: Untagged
@@ -202,6 +203,13 @@ MonoBehaviour:
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -246,6 +254,7 @@ MonoBehaviour:
       m_Calls: []
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -274,10 +283,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
+  m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
   m_MovementType: 2
   m_VelocityDamping: 1
@@ -319,6 +330,33 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   <LeftAttachTransform>k__BackingField: {fileID: 8442988012005528460}
   <RightAttachTransform>k__BackingField: {fileID: 1087891124939809143}
+--- !u!114 &6038664625381968843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602775960926451474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f192763d6baf4ee9a2e0a353a7672190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0.1
+    duration: 0.01
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.01
+  hapticSelectExited:
+    intensity: 0.3
+    duration: 0.01
 --- !u!1 &7602775960926451476
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +418,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 44715f900fc388a4b9b5a3f87863b0c8, type: 2}
+  - {fileID: 2100000, guid: 9556e69073a56e44b8e445a9445b172b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -463,7 +501,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9439c5503f0742e41846c83e8ee638d9, type: 2}
+  - {fileID: 2100000, guid: d1c89e88c4490384482f41a1923a6c43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -498,7 +536,7 @@ GameObject:
   m_Layer: 9
   m_Name: R-Attach point
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
