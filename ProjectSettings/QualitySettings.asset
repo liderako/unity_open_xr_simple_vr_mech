@@ -95,12 +95,12 @@ QualitySettings:
     skinWeights: 255
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 4
+    antiAliasing: 0
     softParticles: 0
     softVegetation: 1
     realtimeReflectionProbes: 1
     billboardsFaceCameraPosition: 1
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 1
     maximumLODLevel: 0
     streamingMipmapsActive: 0
@@ -114,7 +114,7 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 11400000, guid: 80a23613351c3c24683b8497866ec3e6,
+    customRenderPipeline: {fileID: 11400000, guid: b0b1f299fec3ec947938fed16be7dd10,
       type: 2}
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
