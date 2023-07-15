@@ -371,7 +371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d494fce6207484a93c9ff534395dd16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poseTransitionDuration: 0.05
   rightHandPose: {fileID: 2069893105995591318}
+  leftHandPose: {fileID: 0}
 --- !u!1 &7602775960926451476
 GameObject:
   m_ObjectHideFlags: 0

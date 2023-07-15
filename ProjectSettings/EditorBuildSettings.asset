@@ -9,6 +9,8 @@ EditorBuildSettings:
     path: Assets/Source/Scenes/VrRoom.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8c514ae38ee543b448dc0ced10a96bdb,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 76ddf7f5921d055478402218d2f76bb9,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6ec83bd928651ef44a6f9d4aa6cd709e,
