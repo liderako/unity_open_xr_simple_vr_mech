@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 6277704079683154993}
   - component: {fileID: 3772333381274647401}
   - component: {fileID: 4738593325507613573}
+  - component: {fileID: 6038664625381968843}
   m_Layer: 9
   m_Name: PistolObject
   m_TagString: Untagged
@@ -329,6 +330,33 @@ MonoBehaviour:
   m_AddDefaultGrabTransformers: 1
   <LeftAttachTransform>k__BackingField: {fileID: 8442988012005528460}
   <RightAttachTransform>k__BackingField: {fileID: 1087891124939809143}
+--- !u!114 &6038664625381968843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602775960926451474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f192763d6baf4ee9a2e0a353a7672190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0.1
+    duration: 0.01
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0
+  hapticHoverExited:
+    intensity: 0
+    duration: 0
+  hapticSelectEntered:
+    intensity: 0.3
+    duration: 0.01
+  hapticSelectExited:
+    intensity: 0.3
+    duration: 0.01
 --- !u!1 &7602775960926451476
 GameObject:
   m_ObjectHideFlags: 0
