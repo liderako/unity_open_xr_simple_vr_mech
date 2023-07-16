@@ -1,9 +1,8 @@
 ﻿using Source.Scripts.Core.Interfaces;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UniRx;
 
-namespace Source.Scripts.Core
+namespace Source.Scripts.Avatar
 {
     public class HandAnimatorComponent : BaseComponent
     {

@@ -20,12 +20,12 @@ namespace Source.Scripts.Entities.Enemies
 
         private void OnEnable()
         {
-            deathComponent.Death += Dead;
+            deathComponent.DeathPhysicsAction += Dead;
         }
 
         private void OnDisable()
         {
-            deathComponent.Death -= Dead;
+            deathComponent.DeathPhysicsAction -= Dead;
         }
 
         private void InitRigidbodies()

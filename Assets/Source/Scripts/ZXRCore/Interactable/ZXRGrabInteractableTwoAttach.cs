@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Source.Scripts.ZXRCore.Avatar;
+using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 namespace ZXRCore.Interactable
@@ -18,6 +19,11 @@ namespace ZXRCore.Interactable
             {
                 attachTransform = RightAttachTransform;
             }
+
+            // if (args.interactorObject.transform.gameObject.TryGetComponent(out AvatarComponent avatarComponent))
+            // {
+            //     Debug.Log("test");
+            // }
             base.OnSelectEntered(args);
         }
     }
