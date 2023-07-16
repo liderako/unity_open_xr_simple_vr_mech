@@ -13992,6 +13992,11 @@ PrefabInstance:
       propertyPath: textColor.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7001631792955090605, guid: 3c2e3925c8ef7124dad509a9f0f117f5,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7602775960924252628, guid: 3c2e3925c8ef7124dad509a9f0f117f5,
         type: 3}
       propertyPath: m_CastShadows
